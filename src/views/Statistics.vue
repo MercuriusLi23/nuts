@@ -1,11 +1,11 @@
 <template>
-
+<div>Statistics.vue</div>
 </template>
 
 <script>
 export default {
-  name: 'test'
-}
+  name: 'Statistics'
+};
 </script>
 
 <style scoped>
