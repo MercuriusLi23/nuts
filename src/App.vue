@@ -7,6 +7,12 @@
     <router-view/>
   </div>
 </template>
+<style lang="scss">
+@import "~@assets/styles/test.scss";  //引入失败
+body{
+background:$red;
+}
+</style>
 
 <style lang="scss">
 #app {
