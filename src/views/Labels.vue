@@ -1,28 +1,12 @@
 <template>
-  <div class="nav-wrapper">
-    <div class="content">
+  <Layout>
       Labels.vue
-    </div>
-<Nav/>
-</div>
+  </Layout>
 </template>
 
-<script>
+<script lang="ts">
 export default {
-  name: 'Labels',
+  name: 'Labels'
 };
 </script>
 
-<style lang="scss" scoped>
-.nav-wrapper{
-  border:1px solid green;
-  display:flex;
-  flex-direction: column;
-  height: 100vh;
-}
-.content{
-  border:1px solid blue;
-  flex-grow: 1;  //尽量把所有的高度都给content
-  overflow:auto;
-}
-</style>
